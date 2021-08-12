@@ -1,0 +1,70 @@
+body
+{
+background-image:url("Images/bg.png");
+}
+
+ul
+{ 
+background-color:#1a1a1a;
+list-style-type: none;
+font-size:20px;
+overflow: hidden;
+margin: 0;
+padding: 0;
+height: 40px;
+}
+
+li
+{
+float: right;
+padding:5px;
+margin: 5px;
+}
+
+li a
+{
+color:#ffffff ;
+text-decoration: none;
+padding: 15px;
+}
+
+li a:hover:not(.active)
+{
+background-color: #cccccc;
+}
+
+a img
+{
+float: left;
+padding: 0;
+} 
+
+.active
+{
+background-color:#00cc00;
+}
+
+.section
+{
+ background-color:#1a1a1a;
+height: 300px;
+margin: 20px;
+padding: 20px;
+}
+
+.card
+{
+background-color:#cccccc;
+width: 870px;
+height: 270px;
+color: black;
+overflow: hidden;
+padding: 15px;
+}
+footer
+{
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    background-color:#cccccc;;
+}
